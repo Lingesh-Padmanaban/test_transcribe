@@ -4,7 +4,7 @@ from flask_sock import Sock, ConnectionClosed
 from flask_cors import CORS
 from dotenv import load_dotenv, find_dotenv
 
-from ASR_TTS import *
+from dg_asr import *
 
 
 load_dotenv(find_dotenv(), override=True)
